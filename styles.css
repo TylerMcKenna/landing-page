@@ -35,9 +35,56 @@ a {
 }
 
 .rightSideHeader {
-    color: white;
     font-size: 16px;
     display: flex;
     flex-direction: row;
     gap: 40px;
+}
+
+.rightSideHeader a {
+    color: white;
+}
+
+.hero {
+    color: white;
+    background-color: #1F2937;
+    padding: 150px 200px;
+    display: flex;
+    gap: 100px;
+}
+
+.leftHero {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+}
+
+.leftHero h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.leftHero p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.leftHero button {
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+    font-weight: 900;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    align-self: flex-start;
+}
+
+.rightHero {
+    width: 200px;
+    height: auto;
+    flex: 1;
+    align-self: center;
 }

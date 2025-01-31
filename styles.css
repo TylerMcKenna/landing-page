@@ -82,6 +82,10 @@ a {
     align-self: flex-start;
 }
 
+.leftHero button:hover {
+    background-color: #3070d7;
+}
+
 .rightHero {
     width: 200px;
     height: auto;
@@ -113,6 +117,7 @@ a {
 }
 
 .imageCard p {
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -121,4 +126,54 @@ a {
     height: auto;
     border-radius: 15px;
     border: 4px solid #3882F6;
+}
+
+.quoteArea {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 350px;
+}
+
+.quoteText {
+    align-self: flex-start;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.quoteAuthor {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 50px 300px;
+    padding: 50px 100px;
+    border-radius: 15px;
+    color: white;
+}
+
+.callToAction h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.callToAction p {
+    font-size: 14px;
+}
+
+.callToAction button {
+    padding: 8px 30px;
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.callToAction button:hover {
+    background-color: #3070d7;
 }
